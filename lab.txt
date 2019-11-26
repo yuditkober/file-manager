@@ -1,0 +1,49 @@
+#########
+Lab 1 - Show list of files
+#########
+
+1.
+Create a new controller that will show the list of
+files in the project's root directory
+
+Mapping should be:
+
+get '/files' => 'files#index'
+
+For each file show its name and its size
+
+
+2. NOTE: It uses things we haven't yet learned
+
+Allow users to "click" on each text file
+(which ends in .txt) to see its contents
+
+(Think - what should be the route name?
+         what should be the action name?
+)
+
+3. Add two buttons "Delete" and "Duplicate"
+   next to each file in the list
+
+   Delete - should delete the file
+   Duplicate - should duplicate the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<h1>Files#index</h1>
+
+<ul>
+  <% @files.each_with_index do |entry, index| %>
+    <li>
+      <%= link_to file_name_and_size(entry),
+                  file_path(index)
+      %>
+<!--      <a href="<%#= ... %>">...</a>-->
+    </li>
+  <%  end %>
+  <button>Delete</button>
+  <button>Duplicate</button>
+</ul>
+
